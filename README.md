@@ -21,14 +21,10 @@ chmod +x /data/data/com.termux/files/usr/bin/wipwn
 ```
 #### Help : `sudo python wipwn.py --help`
 #### Example : `sudo python wipwn.py -i wlan0 -K`
-### Shortcut : wipwn
-```bash
-cd $PREFIX/bin && echo 'cd $HOME ; cd wipwn ; sudo python wipwn.py -i wlan0 -K' > wipwn && chmod +x wipwn
-```
+
+
 #### Note: 
-+ **First turn off your Wifi.**
 + **Turn on Hotspot.**
-+ **Turn on Location.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
 - `sudo python wipwn.py -i wlan0 -K`
 - - Start Pixie Dust attack on a specified BSSID:
